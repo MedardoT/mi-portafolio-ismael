@@ -1,1 +1,589 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal - Tecnólogo Superior en Ciberseguridad | Especializado en redes, pentesting y seguridad informática">
+    <meta name="keywords" content="ciberseguridad, hacking ético, redes, ASIR, pentesting, phishing, VLAN, tecnólogo">
+    <meta name="author" content="Ismael Torres">
 
+    <title>Portafolio - Ciberseguridad & Redes | Tecnólogo Superior</title>
+    
+    <link rel="icon" href="fotos/mi_icono.ico">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    
+    <header class="header-with-bg">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#inicio">
+                    <i class="bi bi-shield-lock-fill me-2"></i>
+                    <span class="text-white">Ciber</span><span class="text-warning">Security</span>
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portafolio">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#logros">Logros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="inicio" class="hero-section">
+            <div class="hero-overlay"></div>
+            
+            <div class="custom-container position-relative" style="z-index: 1;">
+                
+                <div class="hero-content">
+                    
+                    <div class="hero-image-wrapper">
+                        <div class="profile-image-wrapper">
+                            <img 
+                                src="fotos/mi-foto.png" 
+                                alt="Foto de perfil - Tecnólogo en Ciberseguridad" 
+                                class="profile-image img-fluid">
+                            <div class="profile-image-border"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-text-wrapper">
+                        <h1 class="display-3 fw-bold mb-3 text-white animate-fade-in">
+                            ¡Hola! Soy <span class="text-warning">Ismael Torres</span>
+                        </h1>
+                        <p class="lead text-white-50 mb-2 fs-4">Tecnólogo Superior en Ciberseguridad</p>
+                        <p class="fs-5 text-white mb-3 text-center text-lg-start custom-location">
+                            <i class="bi bi-geo-alt-fill text-warning me-2"></i>
+                            <span>Madrid, España</span>
+                        </p>
+                        <p class="fs-6 text-white-50 mb-4">
+                            Profesional en ciberseguridad con formación en redes y pentesting. 
+                            Actualmente cursando ASIR, enfocado en la protección de infraestructuras digitales mediante hacking ético y arquitecturas de red seguras.
+                        </p>
+                        
+                        <div class="custom-buttons-container">
+                            <a href="#contacto" class="btn btn-warning btn-lg px-4 shadow">
+                                <i class="bi bi-envelope-fill me-2"></i>Contáctame
+                            </a>
+                            <a href="#portafolio" class="btn btn-outline-light btn-lg px-4">
+                                <i class="bi bi-folder-fill me-2"></i>Ver Proyectos
+                            </a>
+                        </div>
+                        
+                        <div class="social-links custom-social mt-4">
+                            <a href="https://github.com/MedardoT" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/medardo-torres-981688386/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=medardot556@gmail.com" class="social-link" target="_blank" aria-label="Email">
+                                <i class="bi bi-envelope-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="scroll-indicator">
+                    <a href="#sobre-mi" class="scroll-down">
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="py-5 bg-light">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <h2 class="display-5 fw-bold text-center mb-5">Sobre mí</h2>
+                        
+                        <div class="card border-0 shadow-sm mb-4">
+                            <div class="card-body p-4">
+                                <div class="row justify-content-center text-center">
+                                    <div class="col-md-10 mx-auto">
+                                        <p class="text-secondary mb-3 fs-5">
+                                            Soy <strong>Tecnólogo Superior en Ciberseguridad</strong>. 
+                                            Apasionado por la seguridad informática, las redes y el hacking ético.
+                                        </p>
+                                        <p class="text-secondary mb-3 fs-5">
+                                            Actualmente curso <strong>ASIR (Administración de Sistemas Informáticos en Red)</strong> 
+                                            en Madrid, España, expandiendo mis conocimientos en infraestructuras de red, 
+                                            administración de sistemas y ciberseguridad empresarial.
+                                        </p>
+                                        <p class="text-secondary fs-5">
+                                            Mi experiencia incluye pentesting, segmentación de redes VLAN, control remoto de sistemas, 
+                                            phishing ético y mejora de infraestructuras de seguridad en organizaciones reales.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="h4 fw-bold mb-4">
+                            <i class="bi bi-mortarboard-fill text-primary me-2"></i>Formación Académica
+                        </h3>
+                        
+                        <div class="education-grid">
+                            <div class="education-card p-4 bg-white rounded shadow-sm">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-geo-alt-fill text-danger fs-3 me-3"></i>
+                                    <div>
+                                        <h4 class="fw-bold mb-2">Bachiller - Técnico Contabilidad</h4>
+                                        <p class="text-secondary mb-1">
+                                            <i class="bi bi-building me-1"></i>U.E. Antonio Avila, Ecuador
+                                        </p>
+                                        <p class="text-secondary small mb-0">
+                                            <i class="bi bi-calendar-check me-1"></i>Graduado
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="education-card p-4 bg-white rounded shadow-sm">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-geo-alt-fill text-danger fs-3 me-3"></i>
+                                    <div>
+                                        <h4 class="fw-bold mb-2">Tecnólogo en Ciberseguridad</h4>
+                                        <p class="text-secondary mb-1">
+                                            <i class="bi bi-building me-1"></i>Instituto Tecnológico del Azuay
+                                        </p>
+                                        <p class="text-secondary small mb-0">
+                                            <i class="bi bi-calendar-check me-1"></i>Graduado - Ecuador
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="education-card p-4 bg-white rounded shadow-sm">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-geo-alt-fill text-warning fs-3 me-3"></i>
+                                    <div>
+                                        <h4 class="fw-bold mb-2">ASIR - Adm. de Sistemas</h4>
+                                        <p class="text-secondary mb-1">
+                                            <i class="bi bi-building me-1"></i>Prometeo by thePower
+                                        </p>
+                                        <p class="text-secondary small mb-0">
+                                            <i class="bi bi-calendar-check me-1"></i>En curso - España
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="education-card p-4 bg-white rounded shadow-sm">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-geo-alt-fill text-warning fs-3 me-3"></i>
+                                    <div>
+                                        <h4 class="fw-bold mb-2">Master de Ciberseguridad</h4>
+                                        <p class="text-secondary mb-1">
+                                            <i class="bi bi-building me-1"></i>Prometeo by thePower
+                                        </p>
+                                        <p class="text-secondary small mb-0">
+                                            <i class="bi bi-calendar-check me-1"></i>En curso - España
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="h4 fw-bold mb-4">
+                            <i class="bi bi-code-slash text-primary me-2"></i>Habilidades Técnicas
+                        </h3>
+                        
+                        <div class="skills-grid">
+                            <div class="skill-item p-3 bg-white rounded shadow-sm">
+                                <i class="bi bi-shield-lock-fill text-danger fs-4 me-2"></i>
+                                <span class="fw-semibold">Pentesting & Ethical Hacking</span>
+                            </div>
+                            
+                            <div class="skill-item p-3 bg-white rounded shadow-sm">
+                                <i class="bi bi-diagram-3-fill text-primary fs-4 me-2"></i>
+                                <span class="fw-semibold">Arquitectura de Redes (VLAN)</span>
+                            </div>
+                            
+                            <div class="skill-item p-3 bg-white rounded shadow-sm">
+                                <i class="bi bi-bug-fill text-warning fs-4 me-2"></i>
+                                <span class="fw-semibold">Control Remoto (RAT)</span>
+                            </div>
+                            
+                            <div class="skill-item p-3 bg-white rounded shadow-sm">
+                                <i class="bi bi-envelope-at-fill text-success fs-4 me-2"></i>
+                                <span class="fw-semibold">Phishing Ético</span>
+                            </div>
+                            
+                            <div class="skill-item p-3 bg-white rounded shadow-sm">
+                                <i class="bi bi-hdd-network-fill text-info fs-4 me-2"></i>
+                                <span class="fw-semibold">Administración de Sistemas</span>
+                            </div>
+                            
+                            <div class="skill-item p-3 bg-white rounded shadow-sm">
+                                <i class="bi bi-git text-secondary fs-4 me-2"></i>
+                                <span class="fw-semibold">Control de Versiones (Git)</span>
+                            </div>
+                            
+                            <div class="skill-item p-3 bg-white rounded shadow-sm">
+                                <i class="bi bi-filetype-py text-primary fs-4 me-2"></i>
+                                <span class="fw-semibold">Programación en Python</span>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portafolio" class="py-5">
+            <div class="container py-5">
+                <h2 class="display-5 fw-bold text-center mb-5">Proyectos de Ciberseguridad</h2>
+                
+                <div class="portfolio-grid">
+                    
+                    <article class="card border-0 shadow-sm project-card">
+                        <div class="card-img-top project-image bg-gradient-danger d-flex align-items-center justify-content-center">
+                            <img src="fotos/Remote.jpg" alt="Captura de terminal ejecutando un script en Python para control remoto (RAT)">
+                        </div>
+                        <div class="card-body p-4">
+                            <h3 class="card-title h4 fw-bold mb-3">
+                                <i class="bi bi-terminal me-2"></i>RAT - Control Remoto
+                            </h3>
+                            <p class="card-text text-secondary mb-3">
+                                Desarrollo de una herramienta de acceso remoto (Remote Access Trojan) con fines educativos. 
+                                Permite control total de un equipo de forma sigilosa, implementando técnicas de persistencia 
+                                y evasión de antivirus.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge bg-danger">Python</span>
+                                <span class="badge bg-danger">Socket Programming</span>
+                                <span class="badge bg-danger">Persistencia</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card border-0 shadow-sm project-card">
+                        <div class="card-img-top project-image bg-gradient-primary d-flex align-items-center justify-content-center">
+                            <img src="fotos/VLANS.png" alt="Diagrama de topología de red mostrando la segmentación mediante VLANs en una cooperativa">
+                        </div>
+                        <div class="card-body p-4">
+                            <h3 class="card-title h4 fw-bold mb-3">
+                                <i class="bi bi-building me-2"></i>Segmentación VLAN
+                            </h3>
+                            <p class="card-text text-secondary mb-3">
+                                Migración de red plana a arquitectura segmentada por VLANs en cooperativa de ahorro y crédito. 
+                                Implementación de segmentación por departamentos, ACLs y políticas de seguridad.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge bg-primary">VLAN</span>
+                                <span class="badge bg-primary">Cisco</span>
+                                <span class="badge bg-primary">ACL</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card border-0 shadow-sm project-card">
+                        <div class="card-img-top project-image bg-gradient-warning d-flex align-items-center justify-content-center">
+                            <img src="fotos/Pishing.png" alt="Pantalla de inicio de sesión de una página web clonada utilizada para campaña de phishing ético">
+                        </div>
+                        <div class="card-body p-4">
+                            <h3 class="card-title h4 fw-bold mb-3">
+                                <i class="bi bi-shield-exclamation me-2"></i>Auditoría de Phishing
+                            </h3>
+                            <p class="card-text text-secondary mb-3">
+                                Prueba de ingeniería social mediante clonación de página institucional educativa. 
+                                Campaña ética para evaluar la concienciación de seguridad de usuarios.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge bg-warning text-dark">Ingeniería Social</span>
+                                <span class="badge bg-warning text-dark">Clonación Web</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card border-0 shadow-sm project-card">
+                        <div class="card-img-top project-image bg-gradient-success d-flex align-items-center justify-content-center">
+                            <img src="fotos/Firewall.png" alt="Panel de control de administración de reglas de un Firewall de red">
+                        </div>
+                        <div class="card-body p-4">
+                            <h3 class="card-title h4 fw-bold mb-3">
+                                <i class="bi bi-hdd-network me-2"></i>Infraestructura Segura
+                            </h3>
+                            <p class="card-text text-secondary mb-3">
+                                Diseño e implementación de infraestructuras de red seguras con firewalls, IDS/IPS, 
+                                sistemas de monitoreo y políticas de acceso.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge bg-success">Linux</span>
+                                <span class="badge bg-success">Firewall</span>
+                                <span class="badge bg-success">IDS/IPS</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="logros" class="py-5 bg-light">
+            <div class="container py-5">
+                <h2 class="display-5 fw-bold text-center mb-5">Logros y Certificaciones</h2>
+                
+                <div class="row g-4">
+                    
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-start mb-3">
+                                    <div class="achievement-icon me-3">
+                                        <i class="bi bi-trophy-fill text-warning display-3"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h4 fw-bold mb-2">🏆 Ganador de Hackathon</h3>
+                                        <p class="text-muted mb-2">Instituto de Ciberseguridad - Ecuador</p>
+                                        <p class="text-secondary">
+                                            Primer lugar en competencia de hacking ético y ciberseguridad. 
+                                            Resolución de retos de pentesting, criptografía y explotación de vulnerabilidades.
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="certificate-preview bg-light rounded p-3 text-center">
+                                    <img 
+                                        src="fotos/certificado.png" 
+                                        alt="Certificado del Hackathon" 
+                                        class="img-fluid rounded shadow-sm">
+                                    <p class="small text-muted mt-2 mb-0">
+                                        <i class="bi bi-image me-1"></i>Certificado oficial del hackathon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-start mb-3">
+                                    <div class="achievement-icon me-3">
+                                        <i class="bi bi-mortarboard-fill text-primary display-3"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h4 fw-bold mb-2">🎓 Tecnólogo Superior Graduado</h3>
+                                        <p class="text-muted mb-2">Ciberseguridad - Cuenca, Ecuador</p>
+                                        <p class="text-secondary mb-3">
+                                            Graduado con honores en la carrera de Tecnología Superior en Ciberseguridad. 
+                                            Formación especializada en pentesting, redes y seguridad de la información.
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="achievements-list">
+                                    <div class="achievement-item p-3 mb-2 bg-light rounded">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        <strong>Experiencia práctica:</strong> Proyectos reales en empresas
+                                    </div>
+                                    <div class="achievement-item p-3 mb-2 bg-light rounded">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        <strong>Especialización:</strong> Redes, pentesting y auditorías
+                                    </div>
+                                    <div class="achievement-item p-3 bg-light rounded">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        <strong>Continuidad:</strong> Actualmente cursando ASIR en España
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="py-5">
+            <div class="container py-5">
+                <h2 class="display-5 fw-bold text-center mb-5">Contacto</h2>
+                
+                <div class="row g-5">
+                    <div class="col-lg-5">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-4">
+                                <h3 class="h4 fw-bold mb-4">¿Colaboramos en un proyecto?</h3>
+                                <p class="text-secondary mb-4">
+                                    Estoy disponible para proyectos de ciberseguridad, auditorías de red, pentesting 
+                                    y consultoría en seguridad informática. Si tienes un proyecto o necesitas ayuda 
+                                    con la seguridad de tu infraestructura, ¡hablemos!
+                                </p>
+                                
+                                <div class="contact-info">
+                                    <div class="d-flex align-items-start mb-3">
+                                        <i class="bi bi-envelope-fill text-primary fs-5 me-3"></i>
+                                        <div>
+                                            <strong class="d-block">Email</strong>
+                                            <a href="mailto:medardot556@gmail.com" class="text-decoration-none text-secondary">
+                                                medardot556@gmail.com
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="d-flex align-items-start mb-3">
+                                        <i class="bi bi-geo-alt-fill text-primary fs-5 me-3"></i>
+                                        <div>
+                                            <strong class="d-block">Ubicación</strong>
+                                            <span class="text-secondary">Madrid, España</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="d-flex align-items-start mb-3">
+                                        <i class="bi bi-github text-primary fs-5 me-3"></i>
+                                        <div>
+                                            <strong class="d-block">GitHub</strong>
+                                            <a href="https://github.com/MedardoT" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-secondary">
+                                                github.com/MedardoT
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-start">
+                                        <i class="bi bi-linkedin text-primary fs-5 me-3"></i>
+                                        <div>
+                                            <strong class="d-block">LinkedIn</strong>
+                                            <a href="https://www.linkedin.com/in/medardo-torres-981688386/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-secondary">
+                                                Medardo Torres
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="alert alert-warning mt-4" role="alert">
+                                    <i class="bi bi-shield-exclamation me-2"></i>
+                                    <strong>Ética profesional:</strong> Todos los proyectos se realizaron con fines educativos 
+                                    y bajo consentimiento explícito.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body p-4">
+                                <form id="contact-form">
+                                    <div class="mb-3">
+                                        <label for="nombre" class="form-label fw-semibold">
+                                            Nombre completo <span class="text-danger">*</span>
+                                        </label>
+                                        <input 
+                                            type="text" 
+                                            class="form-control form-control-lg" 
+                                            id="nombre" 
+                                            name="user_name" 
+                                            placeholder="Tu nombre completo"
+                                            required>
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label fw-semibold">
+                                            Email <span class="text-danger">*</span>
+                                        </label>
+                                        <input 
+                                            type="email" 
+                                            class="form-control form-control-lg" 
+                                            id="email" 
+                                            name="user_email" 
+                                            placeholder="tu@email.com"
+                                            required>
+                                    </div>
+                                    
+                                    <div class="mb-4">
+                                        <label for="mensaje" class="form-label fw-semibold">
+                                            Mensaje <span class="text-danger">*</span>
+                                        </label>
+                                        <textarea 
+                                            class="form-control form-control-lg" 
+                                            id="mensaje" 
+                                            name="message" 
+                                            rows="5" 
+                                            placeholder="Describe tu proyecto o consulta..."
+                                            required></textarea>
+                                    </div>
+                                    
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">
+                                        <i class="bi bi-send-fill me-2"></i>Enviar Mensaje
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-1">
+                        &copy; 2026 <strong>Ismael Torres</strong>. Todos los derechos reservados.
+                    </p>
+                    <p class="small text-white-50 mb-0">
+                        <i class="bi bi-shield-lock-fill me-1"></i>
+                        Tecnólogo Superior en Ciberseguridad
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("rIrz1_yr5NcCM3K6l");
+        })();
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+
+            const btn = event.target.querySelector('button[type="submit"]');
+            const btnOriginalText = btn.innerHTML;
+            btn.innerHTML = '<i class="bi bi-hourglass-split me-2"></i>Enviando...';
+
+            emailjs.sendForm('service_xj3tfpr', 'template_apc3bx8', this)
+                .then(function() {
+                    alert('¡Mensaje enviado con éxito! Me pondré en contacto contigo pronto.');
+                    document.getElementById('contact-form').reset();
+                    btn.innerHTML = btnOriginalText;
+                }, function(error) {
+                    alert('Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.');
+                    btn.innerHTML = btnOriginalText;
+                    console.log(error);
+                });
+        });
+    </script>
+</body>
+</html>
